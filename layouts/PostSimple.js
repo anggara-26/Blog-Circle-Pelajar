@@ -13,8 +13,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
   return (
     <SectionContainer>
       <BlogSEO
-        url={`${siteMetadata.siteUrl}/blog/${slug}`}
-        authorDetails={authorDetails}
+        url={`${siteMetadata.siteUrl}/blog/${frontMatter.slug}`}
         title={`${title} - Circle Pelajar`}
         date={date}
       />
