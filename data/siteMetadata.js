@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Circle Pelajar - Blognya kaum pelajar!',
+  title: 'Blog Circle Pelajar - Tulisan para pelajar!',
   author: 'Anggara Roshandi Putra',
   headerTitle: '',
   description:

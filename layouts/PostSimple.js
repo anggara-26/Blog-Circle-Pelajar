@@ -12,7 +12,12 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
 
   return (
     <SectionContainer>
-      <BlogSEO url={`${siteMetadata.siteUrl}/blog/${frontMatter.slug}`} {...frontMatter} />
+      <BlogSEO
+        url={`${siteMetadata.siteUrl}/blog/${slug}`}
+        authorDetails={authorDetails}
+        title={`${title} - Circle Pelajar`}
+        date={date}
+      />
       <ScrollTopAndComment />
       <article>
         <div>

@@ -17,7 +17,8 @@ export default function FourZeroFour() {
             Halaman yang kamu cari tidak ada nih :(.
           </p>
           <p className="mb-8">
-            Namun jangan khawatir, Kamu dapat menemukan banyak hal menarik lain di beranda kami :D.
+            Namun jangan khawatir, Kamu dapat menemukan artikel-artikel menarik lain di beranda kami
+            :D.
           </p>
           <Link href="/">
             <button className="focus:shadow-outline-blue inline rounded-lg border border-transparent bg-blue-600 px-4 py-2 text-sm font-medium leading-5 text-white shadow transition-colors duration-150 hover:bg-blue-700 focus:outline-none dark:hover:bg-blue-500">

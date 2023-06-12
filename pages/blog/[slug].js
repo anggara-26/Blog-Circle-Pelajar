@@ -43,7 +43,6 @@ export async function getStaticProps({ params }) {
 }
 
 export default function Blog({ post, authorDetails, prev, next }) {
-  console.log(authorDetails)
   const { mdxSource, toc, frontMatter } = post
 
   return (
