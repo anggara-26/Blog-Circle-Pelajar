@@ -27,3 +27,8 @@ input:-webkit-autofill:focus {
 body * {
   @apply transition-colors duration-100;
 }
+
+.giscus,
+.giscus-frame {
+  width: 100%;
+}
