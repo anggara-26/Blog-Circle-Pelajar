@@ -10,9 +10,9 @@
   @apply list-none;
 }
 
-.footnotes {
-  @apply pt-8 mt-12 border-t border-gray-200 dark:border-gray-700;
-}
+/* .footnotes {
+  @apply pt-8 mt-12 border-t border-gray-200 dark: border-gray-700;
+} */
 
 .csl-entry {
   @apply my-5;
@@ -22,4 +22,8 @@
 input:-webkit-autofill,
 input:-webkit-autofill:focus {
   transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+body * {
+  @apply transition-colors duration-100;
 }
