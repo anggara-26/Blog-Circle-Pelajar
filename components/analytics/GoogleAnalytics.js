@@ -3,6 +3,8 @@ import Script from 'next/script'
 import siteMetadata from '@/data/siteMetadata'
 
 const GAScript = () => {
+  console.log('jalan')
+  console.log(siteMetadata.analytics.googleAnalyticsId)
   return (
     <>
       <Script

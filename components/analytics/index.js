@@ -15,6 +15,7 @@ const Analytics = () => {
       {isProduction && siteMetadata.analytics.umamiWebsiteId && <Umami />}
       {isProduction && siteMetadata.analytics.googleAnalyticsId && <GA />}
       {isProduction && siteMetadata.analytics.posthogAnalyticsId && <Posthog />}
+      <GA />
     </>
   )
 }
